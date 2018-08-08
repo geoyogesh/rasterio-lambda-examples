@@ -1,4 +1,4 @@
 version: 1.0.{build}
 build_script:
-- sh: ./landuse_count/deploy.sh
+- sh: cd landuse_count && ./deploy.sh
 test: off
